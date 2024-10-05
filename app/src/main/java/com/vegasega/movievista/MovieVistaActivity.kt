@@ -5,8 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.WindowCompat
-import androidx.navigation.compose.rememberNavController
-import com.vegasega.movievista.presensation.MovieVistaApp
+import com.vegasega.movievista.ui.MovieVistaApp
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -17,6 +16,8 @@ class MovieVistaActivity : ComponentActivity() {
 
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContent {
+//            val navController = rememberNavController()
+
             MovieVistaApp()
         }
     }
