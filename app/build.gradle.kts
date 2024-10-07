@@ -120,4 +120,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.constraintlayout.compose)
 
+    implementation (libs.accompanist.insets)
+
+
 }
